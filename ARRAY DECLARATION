@@ -11,7 +11,7 @@ int main()
    printf("%d",A[2]);//IN SOME COMPILER WE NEED TO ADD HEADER FILE #INCLUDE<STDIO.H>FOR USING PRINTF//
 
 }
-
+//FOR LOOP//
 😒#include <iostream>
 using namespace std;
 int main()
@@ -24,7 +24,7 @@ int main()
      }
 }
 
-
+//FOR EACH LOOP//
 👌#include <iostream>
 using namespace std;
 int main()
