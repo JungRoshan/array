@@ -1,4 +1,4 @@
-#include <iostream>
+👌#include <iostream>
 using namespace std;
 
 int main()
@@ -12,8 +12,7 @@ int main()
 
 }
 
-//declare and initialize//
-#include <iostream>
+😒#include <iostream>
 using namespace std;
 int main()
 {
@@ -22,5 +21,22 @@ int main()
      {
      cout<<sizeof(A)<<endl;
      printf("%d\n",A[i]);
+     }
+}
+
+
+👌#include <iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"enter size";
+    cin>>n;
+    int A[n]={2,5,7,8,5};//variable size array(was not allowed in old c compiler)//
+     for(int x:A)
+     {
+     cout<<sizeof(x)<<endl;
+     printf("%d\n",x);//
+     
      }
 }
