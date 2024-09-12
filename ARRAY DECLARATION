@@ -11,3 +11,16 @@ int main()
    printf("%d",A[2]);//IN SOME COMPILER WE NEED TO ADD HEADER FILE #INCLUDE<STDIO.H>FOR USING PRINTF//
 
 }
+
+//declare and initialize//
+#include <iostream>
+using namespace std;
+int main()
+{
+    int A[10]={2,5,7,8,5};
+     for(int i=0;i<10;i++)
+     {
+     cout<<sizeof(A)<<endl;
+     printf("%d\n",A[i]);
+     }
+}
